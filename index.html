@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Astro Jump - Support</title>
+<meta name="description" content="Support for Astro Jump / Assistance pour Astro Jump.">
+<style>
+  :root {
+    --navy: #0D0A24;
+    --cyan: #40E0FF;
+    --bg: #F5F8FC;
+    --text: #1A1B2E;
+    --muted: #55587A;
+    --card: #FFFFFF;
+    --border: #DCE3EE;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0A0818;
+      --text: #E8ECF5;
+      --muted: #A9AFC9;
+      --card: #14112E;
+      --border: #2A2650;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0A0818;
+    --text: #E8ECF5;
+    --muted: #A9AFC9;
+    --card: #14112E;
+    --border: #2A2650;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  header {
+    background: #0D0A24;
+    color: #FFFFFF;
+    padding: 28px 16px 22px;
+    border-bottom: 3px solid #40E0FF;
+  }
+  header .wrap { max-width: 720px; margin: 0 auto; }
+  header h1 { margin: 0 0 4px; font-size: 1.6rem; }
+  header p { margin: 0; color: #40E0FF; font-size: 0.95rem; }
+  main { max-width: 720px; margin: 0 auto; padding: 16px; }
+  section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin: 16px 0; }
+  h2 { font-size: 1.2rem; margin: 0 0 10px; }
+  h3 { font-size: 1rem; margin: 16px 0 6px; }
+  p, li { color: var(--text); }
+  ul, ol { padding-left: 20px; }
+  a { color: #0A8FB0; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) a { color: #40E0FF; }
+  }
+  :root[data-theme="dark"] a { color: #40E0FF; }
+  .lang-sep { border: 0; border-top: 2px dashed var(--cyan); margin: 28px 0 0; }
+  .btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 16px;
+    background: #0D0A24;
+    color: #40E0FF !important;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  footer { max-width: 720px; margin: 0 auto; padding: 8px 16px 32px; color: var(--muted); font-size: 0.85rem; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Astro Jump</h1>
+    <p>Assistance / Support</p>
+  </div>
+</header>
+
+<main>
+  <section lang="fr">
+    <h2>Assistance</h2>
+    <p>Astro Jump est un jeu d'arcade gratuit et hors ligne. Un astronaute en dessin animé saute de planète en planète. Touchez l'écran n'importe où, ou utilisez le bouton de saut, pour sauter vers la planète suivante.</p>
+
+    <h3>Comment jouer</h3>
+    <ul>
+      <li>Touchez l'écran n'importe où, ou appuyez sur le bouton de saut, pour sauter vers la planète suivante.</li>
+      <li>Atterrissez sur les planètes pour avancer.</li>
+      <li>Ne restez pas trop longtemps sur une planète : quelques secondes maximum.</li>
+      <li>Évitez les trous noirs et les météorites.</li>
+    </ul>
+
+    <h3>Questions fréquentes</h3>
+    <p><strong>Comment réinitialiser mon meilleur score ?</strong><br>
+    Supprimez l'application, puis réinstallez-la. Le meilleur score est stocké localement sur l'appareil, il est donc effacé avec l'application.</p>
+
+    <h3>Contact</h3>
+    <p>Pour toute question : <a href="mailto:jeremy99981@gmail.com">jeremy99981@gmail.com</a></p>
+    <p><a class="btn" href="privacy.html">Politique de confidentialité</a></p>
+  </section>
+
+  <hr class="lang-sep">
+
+  <section lang="en">
+    <h2>Support</h2>
+    <p>Astro Jump is a free, offline arcade game. A cartoon astronaut jumps from planet to planet. Tap anywhere, or use the jump button, to jump to the next planet.</p>
+
+    <h3>How to play</h3>
+    <ul>
+      <li>Tap anywhere, or press the jump button, to jump to the next planet.</li>
+      <li>Land on planets to keep going.</li>
+      <li>Don't stay on a planet for more than a few seconds.</li>
+      <li>Avoid black holes and meteorites.</li>
+    </ul>
+
+    <h3>FAQ</h3>
+    <p><strong>How do I reset my best score?</strong><br>
+    Delete the app, then reinstall it. The best score is stored locally on your device, so it is erased along with the app.</p>
+
+    <h3>Contact</h3>
+    <p>For questions: <a href="mailto:jeremy99981@gmail.com">jeremy99981@gmail.com</a></p>
+    <p><a class="btn" href="privacy.html">Privacy Policy</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>Astro Jump &middot; Jeremy Oliu &middot; <a href="privacy.html">Privacy / Confidentialité</a></p>
+</footer>
+</body>
+</html>
