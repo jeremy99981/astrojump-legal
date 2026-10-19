@@ -83,20 +83,23 @@
     <h3>Données collectées</h3>
     <p>Pour le classement mondial, le multijoueur (1 contre 1) et la vérification des scores, l'application échange avec le serveur d'Astro Jump (astrojump.wuuti.fr) les données suivantes :</p>
     <ul>
-      <li><strong>Identifiants</strong> : un identifiant de compte créé automatiquement, un identifiant d'installation aléatoire (il n'identifie pas l'appareil en dehors du jeu) et, si vous utilisez Game Center, votre identifiant de joueur Game Center.</li>
-      <li><strong>Pseudo</strong> : votre pseudo Game Center, ou un pseudo généré (par exemple « Cadet_1234 »). Il est visible des autres joueurs dans le classement et en multijoueur. Le mode streamer de l'application masque les pseudos à l'écran.</li>
+      <li><strong>Identifiants</strong> : un identifiant de compte créé automatiquement, un identifiant d'installation aléatoire (il n'identifie pas l'appareil en dehors du jeu) et, si vous utilisez Game Center ou Google Play Jeux, votre identifiant de joueur Game Center ou Play Jeux.</li>
+      <li><strong>Pseudo</strong> : votre pseudo Game Center ou Play Jeux, ou un pseudo généré (par exemple « Cadet_1234 »). Il est visible des autres joueurs dans le classement et en multijoueur. Le mode streamer de l'application masque les pseudos à l'écran.</li>
       <li><strong>Données de jeu</strong> : scores, déroulé des parties (sauts, atterrissages, horodatage) servant à vérifier qu'un score n'est pas truqué, résultats et classement Elo des matchs multijoueurs, version du jeu et plateforme.</li>
     </ul>
-    <p>Ces données servent uniquement au fonctionnement du jeu (classement, multijoueur, anti-triche). Astro Jump n'a pas de publicité, pas de SDK tiers, n'utilise pas l'identifiant publicitaire et ne fait aucun suivi. Aucune adresse e-mail, aucun nom réel, aucune localisation ni aucun contact n'est collecté.</p>
+    <p>Ces données servent uniquement au fonctionnement du jeu (classement, multijoueur, anti-triche). Astro Jump n'a pas de publicité, n'intègre pas de SDK publicitaire ni d'analyse d'audience, n'utilise pas l'identifiant publicitaire et ne fait aucun suivi. Aucune adresse e-mail, aucun nom réel, aucune localisation ni aucun contact n'est collecté.</p>
+
+    <p><strong>Google Play Jeux (Android, facultatif)</strong> : si vous vous connectez avec Google Play Jeux, Google traite votre identifiant de joueur et votre pseudo selon sa propre politique de confidentialité. Astro Jump reçoit uniquement ces informations pour retrouver votre profil et votre classement. Sans connexion, le jeu utilise un compte invité et reste entièrement jouable.</p>
+    <p><strong>Play Integrity (facultatif)</strong> : si cette protection est activée dans une version du jeu, Android peut transmettre un jeton d'intégrité au serveur Astro Jump afin de vérifier que l'application n'a pas été modifiée. Ce jeton ne contient pas de donnée personnelle supplémentaire. Dans la version 1.0.2 publiée sur Google Play, Play Integrity est désactivé.</p>
 
     <h3>Données stockées sur l'appareil</h3>
-    <p>Votre meilleur score, vos réglages et vos jetons de connexion sont enregistrés sur votre appareil (les jetons dans le trousseau iOS). Supprimer l'application supprime ces données locales.</p>
+    <p>Votre meilleur score, vos réglages et vos jetons de connexion sont enregistrés sur votre appareil (trousseau iOS ou Android Keystore). Supprimer l'application supprime ces données locales.</p>
 
     <h3>Conservation et suppression</h3>
     <p>Les données sont conservées tant que votre compte existe. Vous pouvez supprimer votre compte et toutes les données associées à tout moment depuis l'application (Profil → « Supprimer mes données en ligne »), ou en écrivant à l'adresse ci-dessous.</p>
 
     <h3>Tiers</h3>
-    <p>Les données ne sont ni vendues ni partagées. Si vous utilisez Game Center, Apple traite vos données Game Center selon sa propre politique de confidentialité ; Astro Jump reçoit seulement votre identifiant et votre pseudo Game Center.</p>
+    <p>Les données ne sont ni vendues ni partagées. Si vous utilisez Game Center, Apple traite vos données Game Center selon sa propre politique de confidentialité ; si vous utilisez Google Play Jeux ou Play Integrity, Google traite les données correspondantes selon la politique de confidentialité de Google. Astro Jump reçoit seulement votre identifiant et votre pseudo de jeu.</p>
 
     <h3>Enfants</h3>
     <p>Astro Jump est adapté à tous les âges. Seules les données nécessaires au jeu décrites ci-dessus sont traitées, sans publicité ni suivi.</p>
@@ -122,20 +125,23 @@
     <h3>Data collected</h3>
     <p>For the global leaderboard, multiplayer (1 vs 1) and score verification, the app exchanges the following data with the Astro Jump server (astrojump.wuuti.fr):</p>
     <ul>
-      <li><strong>Identifiers</strong>: an automatically created account ID, a random installation ID (it does not identify your device outside the game) and, if you use Game Center, your Game Center player ID.</li>
-      <li><strong>Nickname</strong>: your Game Center nickname, or a generated one (for example "Cadet_1234"). It is visible to other players on the leaderboard and in multiplayer. The app's streamer mode hides nicknames on screen.</li>
+      <li><strong>Identifiers</strong>: an automatically created account ID, a random installation ID (it does not identify your device outside the game) and, if you use Game Center or Google Play Games, your Game Center or Play Games player ID.</li>
+      <li><strong>Nickname</strong>: your Game Center or Play Games nickname, or a generated one (for example "Cadet_1234"). It is visible to other players on the leaderboard and in multiplayer. The app's streamer mode hides nicknames on screen.</li>
       <li><strong>Gameplay data</strong>: scores, run details (jumps, landings, timestamps) used to verify that a score is genuine, multiplayer match results and Elo rating, game version and platform.</li>
     </ul>
-    <p>This data is used only to run the game (leaderboard, multiplayer, anti-cheat). Astro Jump has no advertising, no third-party SDKs, does not use the advertising identifier and does no tracking. No email address, real name, location or contacts are collected.</p>
+    <p>This data is used only to run the game (leaderboard, multiplayer, anti-cheat). Astro Jump has no advertising, no advertising or analytics SDK, does not use the advertising identifier and does no tracking. No email address, real name, location or contacts are collected.</p>
+
+    <p><strong>Google Play Games (Android, optional)</strong>: if you sign in with Google Play Games, Google processes your player ID and nickname under its own privacy policy. Astro Jump only receives this information to restore your profile and leaderboard entry. Without signing in, the game uses a guest account and remains fully playable.</p>
+    <p><strong>Play Integrity (optional)</strong>: if this protection is enabled in a version of the game, Android may send an integrity token to the Astro Jump server to verify that the app has not been modified. This token contains no additional personal data. In version 1.0.2 published on Google Play, Play Integrity is disabled.</p>
 
     <h3>Data stored on your device</h3>
-    <p>Your best score, settings and sign-in tokens are stored on your device (tokens in the iOS Keychain). Deleting the app deletes this local data.</p>
+    <p>Your best score, settings and sign-in tokens are stored on your device (iOS Keychain or Android Keystore). Deleting the app deletes this local data.</p>
 
     <h3>Retention and deletion</h3>
     <p>Data is kept while your account exists. You can delete your account and all associated data at any time from the app (Profile → "Delete my online data"), or by writing to the address below.</p>
 
     <h3>Third parties</h3>
-    <p>Data is never sold or shared. If you use Game Center, Apple processes your Game Center data under its own privacy policy; Astro Jump only receives your Game Center player ID and nickname.</p>
+    <p>Data is never sold or shared. If you use Game Center, Apple processes your Game Center data under its own privacy policy; if you use Google Play Games or Play Integrity, Google processes the corresponding data under Google's privacy policy. Astro Jump only receives your player ID and nickname.</p>
 
     <h3>Children</h3>
     <p>Astro Jump is suitable for all ages. Only the gameplay data described above is processed, with no advertising and no tracking.</p>
